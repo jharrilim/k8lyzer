@@ -26,4 +26,5 @@ export class PodsService {
       spec: JSON.stringify(pod.spec),
       status: JSON.stringify(pod.status),
     }));
+
 }
