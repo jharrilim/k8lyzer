@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Pod {
+  apiVersion: String
+  kind: String
+  metadata: String
+  spec: String
+  status: String
+}
+
+type Query {
+  pods: [Pod!]!
+}
